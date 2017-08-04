@@ -1637,8 +1637,8 @@ int64_t GetServicenodePayment(int nHeight, int64_t blockValue, int nServicenodeC
     }
 
     if (nHeight <= 2650) {
-        ret = blockValue / 5;
-    } else if (nHeight > 2650) {
+        ret = blockValue * .6;
+    } else if (nHeight > 250000) { // TODO algo to replace hard-coded see-saw
         int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
         int64_t mNodeCoins = mnodeman.size() * 10000 * COIN;
 
@@ -1653,7 +1653,7 @@ int64_t GetServicenodePayment(int nHeight, int64_t blockValue, int nServicenodeC
         if (mNodeCoins == 0) {
             ret = 0;
 	}
-	ret = blockValue * .4;
+	ret = blockValue * .6;
 
     }
 
