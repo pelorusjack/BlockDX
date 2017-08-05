@@ -105,7 +105,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // BlocknetDX: 1 day
         nTargetSpacing = 1 * 60;  // BlocknetDX: 1 minute
-        nLastPOWBlock = 1500;
+        nLastPOWBlock = 2000;
         nMaturity = 100;
         nServicenodeCountDrift = 20;
         nModifierUpdateBlock = 615800;
@@ -131,12 +131,12 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1501859291;
+        genesis.nTime = 1501956314;
         genesis.nBits = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce = 142288;
+        genesis.nNonce = 497585;
 
         hashGenesisBlock = genesis.GetHash();
-	assert(hashGenesisBlock == uint256("0x0000003f0a80362726f84bb0441a203bf96ab331987762ccdc27393f9666b82a"));
+	assert(hashGenesisBlock == uint256("0x00000da044ef2a56d193e180de789b558dd6598ae625f2fc2ccbd93ea47c353f"));
         assert(genesis.hashMerkleRoot == uint256("0xb1f0e93f6df55af4c23a0719ab33be2b8115e2b6127fc1d926a06c60a8b56bf2"));
 
 	/*
