@@ -1,6 +1,5 @@
 BlocknetDX repository
 
-BlocknetDX is a Proof of Stake based wallet with built-in decentralized exchange.  You can trade with any other chain provided it supports BIP65 (Non BIP65 chains will be supported in an upcoming release)
 
 
 -- Decentralized Atomic Swap algo summary
