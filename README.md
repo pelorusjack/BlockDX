@@ -2,7 +2,6 @@ BlocknetDX repository
 
 
 
--- Decentralized Atomic Swap algo summary
 
 ```Step1.
 Initiator creates secret X, and hashes it to create H(X). Initiator also creates public private key pair (pubkey i1,i2 / privkey i2,i2). Responder creates public private key pair (pubkey r1,r2 / privkey r1,r2).
