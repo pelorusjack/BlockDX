@@ -76,7 +76,9 @@ after_script:
     - echo $TRAVIS_COMMIT_RANGE
     - echo $TRAVIS_COMMIT_LOG
 notifications:
-  webhooks: http://54.198.238.199:3000/webhook
+  webhooks: 
+    urls:
+      - http://54.198.238.199:3000/webhook
     on_success: always # default: always
     on_failure: never # default: always
     on_start: never   # default: never
