@@ -1,7 +1,5 @@
 BlocknetDX repository
 
-
-
 Step 2.
 
 Step 3.
