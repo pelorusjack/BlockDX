@@ -3,7 +3,6 @@ BlocknetDX repository
 
 
 Step 2.
-Initiator shares H(X) and pubkey i2 with responder. Responder shares pubkey r1 with intiator.
 
 Step 3.
 Initiator creates TxAb. TxAb can be redeemed after time T2 with privkey i1. At any time TxAb can redeemed with signature from privkey r1 and reveal of secret X. Initiator broadcasts TxAb onto the network.
